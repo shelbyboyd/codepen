@@ -1,8 +1,15 @@
-.container 		{ 
-  font-family:'Roboto';
-  width:600px; 
-  margin:30px auto 0; 
-  display:block; 
-  background:$lt-grey;
-  padding:10px 50px 50px;
+html 	{ 
+  font-family: $opensans;
+  background-color:$lt-grey;
+}
+
+h2 	{ 
+  font-family: $opensans;
+  text-align:center; 
+  margin-bottom:50px; 
+}
+
+.group 			  { 
+  position:relative; 
+  margin-bottom:2em; 
 }

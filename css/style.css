@@ -1,9 +1,16 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300italic);
-.container {
-  font-family: 'Roboto';
-  width: 600px;
-  margin: 30px auto 0;
-  display: block;
-  background: #dddbde;
-  padding: 10px 50px 50px;
+html {
+  font-family: "Open Sans", sans-serif;
+  background-color: #dddbde;
+}
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.group {
+  position: relative;
+  margin-bottom: 2em;
 }
