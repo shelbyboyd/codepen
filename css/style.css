@@ -13,6 +13,7 @@ form {
 }
 
 input {
+  background-color: #dddbde;
   font-size: 1em;
   padding: 10px 10px 10px 5px;
   display: block;
@@ -43,7 +44,7 @@ input:valid ~ label {
 }
 
 label {
-  color: #dddbde;
+  color: #757575;
   font-size: 1em;
   position: absolute;
   pointer-events: none;
