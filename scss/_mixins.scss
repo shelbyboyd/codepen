@@ -1,0 +1,21 @@
+@mixin inputfield {
+  font-size: 1em;
+  padding:10px 10px 10px 5px;
+  display:block;
+  width:25em;
+  border:none;
+  border-bottom:1px solid $pink;
+  &:focus {
+        outline: none;
+    }
+  &:focus ~ label {
+  top:-20px;
+  font-size:.75em;
+  color:$pink;
+}
+  &:valid ~ label {
+  top:-20px;
+  font-size:.75em;
+  color:$pink;
+}
+}
